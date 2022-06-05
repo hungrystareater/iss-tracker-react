@@ -8,7 +8,7 @@ In order to run this code you need to register and get API keys for these two AP
 <br />and paste it in the App.js file in {your-api-key}.
 
 APIs used: 
-http://api.open-notify.org/iss-now.json - current ISS coordinates
+<br />http://api.open-notify.org/iss-now.json - current ISS coordinates
 <br />https://weatherapi.com - get current weather by coordinates 
 <br />https://onwater.io - determines whether passed coordinates are on water or not
 
