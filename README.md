@@ -1,6 +1,6 @@
 This app allows to track International Space Station location on a zoomable map with geographical lables and simultaneously watch the stream from 720p camera installed on the station. It also shows current weather directly in front of the camera.
 
-
+![preview](https://github.com/hungrystareater/iss-tracker-react/blob/main/preview1.gif)
 
 In order to run this code you need to register and get API keys for these two APIs:
 <br />https://weatherapi.com
