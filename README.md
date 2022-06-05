@@ -2,15 +2,15 @@ This app allows to track International Space Station location on a zoomable map 
 
 
 
-In order to use this code for your own purposes you need to register and get API keys for these two APIs:
-https://weatherapi.com
-https://onwater.io
-and paste it in the App.js file in {your-api-key}.
+In order to run this code you need to register and get API keys for these two APIs:
+<br />https://weatherapi.com
+<br />https://onwater.io
+<br />and paste it in the App.js file in {your-api-key}.
 
 APIs used: 
 http://api.open-notify.org/iss-now.json - current ISS coordinates
-https://weatherapi.com - get current weather by coordinates 
-https://onwater.io - determines whether passed coordinates are on water or not
+<br />https://weatherapi.com - get current weather by coordinates 
+<br />https://onwater.io - determines whether passed coordinates are on water or not
 
 Map:
 https://openlayers.org/ + https://www.arcgis.com API for the map data
