@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+* {
+  /* border: 1px solid black !important; */
+  font-family: 'Work Sans', sans-serif;
+}
+
+.weather {
+  font-size: 0.9rem;
+
+  p {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+  }
+
+  table {
+    width: 100%;
+    padding-top: 5px;
+
+    td {
+      padding: 3px 10px 0 10px;
+
+      &:nth-child(1) {
+        border-left: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      &:nth-child(2) {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      &:nth-child(4) {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    p {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    
+    img {
+      height: 2rem;
+      width: auto;
+      padding-right: 0px;
+      transform: translate(0, 4px);
+    }
+  }
+}
+
+.weather__location-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.weather__location-info div {
+  width: 100%;
+}
+
+#container {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.issFrame {
+  border: none;
+
+  width: "836px";
+  height: "470px";
+}
+
+.controls {
+  font-size: 0.9rem;
+  float: right;
+  margin-right: 10px;
+  width: 300px;
+  input {
+    float: left;
+    margin: 0.2rem 1rem 0 0;
+  }
+}
