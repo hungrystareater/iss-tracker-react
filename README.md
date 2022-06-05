@@ -9,7 +9,7 @@ and paste it in the App.js file in {your-api-key}.
 
 APIs used: 
 http://api.open-notify.org/iss-now.json - current ISS coordinates
-https://weatherapi.com - get current weather by coordinates
+https://weatherapi.com - get current weather by coordinates 
 https://onwater.io - determines whether passed coordinates are on water or not
 
 Map:
